@@ -1,30 +1,24 @@
-# eweOS WSL
+## 🐑关于
 
-![图片](https://github.com/YisuiDenghua/eweOS-WSL/assets/102890144/7eab9cb5-35b4-48b5-961d-504cb798a946)
+WSL 的[eweOS](https://os.ewe.moe/) 封装, 基于 [wsldl](https://github.com/yuk7/wsldl)。
 
-[日本語](i18n/README_ja.md) | [简体中文](i18n/README_zh-hans.md)
+## 💻系统需求
 
-## 🐑About
-
-[eweOS](https://os.ewe.moe/) on WSL, based on [wsldl](https://github.com/yuk7/wsldl).
-
-## 💻Requirements
-
-Windows 10 1709 Fall Creators Update or later(x64/arm64).
-Windows Subsystem for Linux feature is enabled.
+Windows 10 1709 或更高版本（x64/arm64）。
+已经开启适用于 Linux 的 Windows 子系统（WSL）功能。
 
 
-## 💾Install
+## 💾安装
 
-1. Download the zip from [releases](https://github.com/YisuiDenghua/eweOS-WSL/releases).
-2. Extract all files in zip file to same directory
-3. Run `eweos.exe` to extract rootfs and register to WSL
+1. 从 [Release](https://github.com/YisuiDenghua/eweOS-WSL/releases) 下载 zip 安装包。
+2. 解压缩 zip 文件中的全部内容到相同的目录。
+3. 运行 `eweos.exe` 以安装 rootfs 和注册表配置
 
-Exe filename is used as WSL instance name - you can rename it to create multiple installations.
+EXE 文件名可用作 WSL 实例名称。可通过重命名 EXE 文件以创建多个 eweOS 实例，且互不冲突。
 
-## 📝Usage
+## 📝用途
 
-> [wsldl usage reference](https://github.com/yuk7/wsldl#how-to-usefor-installed-instance).
+> 参见 [wsldl usage reference](https://github.com/yuk7/wsldl#how-to-usefor-installed-instance).
 
 exe usage:
 ```
@@ -68,15 +62,15 @@ Usage :
       - Print this usage message.
 ```
 
-## 🚮Uninstall
+## 🚮删除
 
 `eweos.exe clean`
 
-## ⛏Build
+## ⛏构建
 
-Requirements: Python, module `requests`. 
+需求: Python, 模块 `requests`。
 
-1. Install python
-2. Install `requests` via pip: `python -m pip install requests`
-3. Run the script. `python ./build-amd64.py` for AMD64 or `build-arm64.py` for ARM64
+1. 安装 python
+2. 使用 pip 安装 `requests` : `python -m pip install requests`
+3. 运行脚本。 `python ./build-amd64.py` 用于 AMD64。 `build-arm64.py` 用于 ARM64。
 
