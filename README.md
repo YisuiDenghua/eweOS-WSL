@@ -1,5 +1,8 @@
 # eweOS WSL
 
+![图片](https://github.com/YisuiDenghua/eweOS-WSL/assets/102890144/7eab9cb5-35b4-48b5-961d-504cb798a946)
+
+
 ## About
 
 [eweOS](https://os.ewe.moe/) on WSL, based on [wsldl](https://github.com/yuk7/wsldl).
