@@ -9,7 +9,7 @@
 
 ## Installing
 
-1. Download the installer zip
+1. Download the zip from releases.
 2. Extract all files in zip file to same directory
 3. Run `eweos.exe` to extract rootfs and register to WSL
 
@@ -21,4 +21,9 @@ Refer to the [wsldl usage reference](https://github.com/yuk7/wsldl#how-to-usefor
 
 ## Build
 
-The build script is still working in progress, comming soon. 
+Requirements: Python, module `requests`. 
+
+1. Install python
+2. Install `requests` via pip: `python -m pip install requests`
+3. Run the script. `python ./build-amd64.py` for AMD64 or `build-arm64.py` for ARM64
+
