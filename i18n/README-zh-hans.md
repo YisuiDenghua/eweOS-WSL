@@ -20,46 +20,46 @@ EXE 文件名可用作 WSL 实例名称。可通过重命名 EXE 文件以创建
 
 > 参见 [wsldl usage reference](https://github.com/yuk7/wsldl#how-to-usefor-installed-instance).
 
-exe usage:
+exe 使用方法:
 ```
-Usage :
-    <no args>
-      - Open a new shell with your default settings.
+用法 :
+    <无参数>
+      - 以你的默认设置打开一个新的Shell。
 
-    run <command line>
-      - Run the given command line in that instance. Inherit current directory.
+    run <命令行>
+      - 在此实例中运行你所给出的命令，继承当前Shell的所在目录。
 
-    runp <command line (includes windows path)>
-      - Run the given command line in that instance after converting its path.
+    runp <命令行 (包含 windows 路径)>
+      - 在此实例里运行转译过的命令行。
 
-    config [setting [value]]
-      - `--default-user <user>`: Set the default user of this instance to <user>.
-      - `--default-uid <uid>`: Set the default user uid of this instance to <uid>.
-      - `--append-path <true|false>`: Switch of Append Windows PATH to $PATH
-      - `--mount-drive <true|false>`: Switch of Mount drives
+    config [setting [值]]
+      - `--default-user <用户>`: 设定此实例的默认用户到 <用户>。
+      - `--default-uid <uid>`: 设定此实例的默认用户 UID 到 <uid>。
+      - `--append-path <on|off>`: 加入 Windows PATH 到 $PATH 的开关。
+      - `--mount-drive <on|off>`: 挂载驱动器的开关。
       - `--wsl-version <1|2>`: Set the WSL version of this instance to <1 or 2>
-      - `--default-term <default|wt|flute>`: Set default type of terminal window.
+      - `--default-term <default|wt|flute>`: 设置默认的终端窗口样式。
 
     get [setting]
-      - `--default-uid`: Get the default user uid in this instance.
-      - `--append-path`: Get true/false status of Append Windows PATH to $PATH.
-      - `--mount-drive`: Get true/false status of Mount drives.
-      - `--wsl-version`: Get the version os the WSL (1/2) of this instance.
-      - `--default-term`: Get Default Terminal type of this instance launcher.
-      - `--lxguid`: Get WSL GUID key for this instance.
+      - `--default-uid`: 输出此实例的默认用户UID。
+      - `--append-path`: 输出”加入 Windows PATH 到 $PATH“的开关状态。
+      - `--mount-drive`: 输出”挂载驱动器”的开关状态。
+      - `--wsl-version`: 输出此实例的WSL版本（1/2）。
+      - `--default-term`: 输出此实例启动器的默认终端样式。
+      - `--lxguid`: 输出此实例的 WSL GUID key。
 
     backup [contents]
-      - `--tar`: Output backup.tar to the current directory.
-      - `--tgz`: Output backup.tar.gz to the current directory.
-      - `--vhdx`: Output backup.ext4.vhdx to the current directory. (WSL2 only)
-      - `--vhdxgz`: Output backup.ext4.vhdx.gz to the current directory. (WSL2 only)
-      - `--reg`: Output settings registry file to the current directory.
+      - `--tar`: 在当前目录输出 backup.tar 文件。
+      - `--tgz`: 在当前目录输出 backup.tar.gz 文件。
+      - `--vhdx`: 在当前目录输出 backup.ext4.vhdx 文件。（仅 WSL2）
+      - `--vhdxgz`: 在当前目录输出 backup.ext4.vhdx.gz 文件。（仅 WSL2）
+      - `--reg`: 在当前目录输出注册表配置文件。
 
     clean
-      - Uninstall that instance.
+      - 卸载此实例。
 
     help
-      - Print this usage message.
+      - 显示此帮助信息。
 ```
 
 ## 🚮删除
