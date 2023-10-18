@@ -1,4 +1,4 @@
-## 🐑About
+## 🐑eweOS WSLについて
 
 [eweOS](https://os.ewe.moe/)ベースのWSLディストリビューション(Windows 10 FCU以降対応/[wsldl](https://github.com/yuk7/wsldl)ベース)
 
