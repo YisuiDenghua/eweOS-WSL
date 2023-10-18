@@ -4,6 +4,7 @@ import lzma
 import requests
 import shutil
 
+print('This is the script for AMD64.')
 # Function to change xz into gz
 def convert_tar_xz_to_tar_gz(xz_file_path, gz_file_path):
     # Open the .tar.xz file for reading
@@ -22,7 +23,7 @@ os.chdir('eweoswsl')
 # Download wsldl.exe
 print('Downloading wsldl...')
 exe_url = 'https://github.com/yuk7/wsldl/releases/download/23072600/wsldl.exe'
-exe_filename = 'wsldl.exe'
+exe_filename = 'eweos.exe'
 
 if not os.path.exists(exe_filename):
   response = requests.get(exe_url)
@@ -31,7 +32,7 @@ if not os.path.exists(exe_filename):
   with open(exe_filename, 'wb') as file:
       file.write(response.content)
 else:
-    print('wsldl.exe exsists.')
+    print('eweos.exe exsists.')
 
 
 # Download the eweOS' rootfs
