@@ -2,7 +2,7 @@
 
 ![图片](https://github.com/YisuiDenghua/eweOS-WSL/assets/102890144/7eab9cb5-35b4-48b5-961d-504cb798a946)
 
-[日本語](i18n/README_ja.md) | [简体中文](i18n/README_zh-hans.md)
+[日本語](i18n/README-ja.md) | [简体中文](i18n/README_zh-hans.md)
 
 ## 🐑About
 
