@@ -52,7 +52,7 @@ Usage :
       - `--tgz`: 現在文件集にbackup.tar.gzを出力します。
       - `--vhdx`: 現在文件集にbackup.ext4.vhdxを出力します。 (WSL2のみ)
       - `--vhdxgz`: 現在文件集にbackup.ext4.vhdx.gzを出力します。 (WSL2のみ)
-      - `--reg`: 設定の現在文件集をbackup.regとしてカレントディレクトリに出力します。
+      - `--reg`: 設定の現在文件集をbackup.regとして現在文件集に出力します。
       
     clean
       - 実例を抹消します。
