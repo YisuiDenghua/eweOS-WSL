@@ -69,5 +69,5 @@ Usage :
 要件：Python, module `requests`.
 
 1. Pythonをインストール
-2. pipによる `requests` のインストール: `python -m pip install requests`
+2. pipによる `requests` をインストール: `python -m pip install requests`
 3. スクリプトを実行. AMD64の場合は `python ./build-amd64.py`、ARM64の場合は`build-arm64.py`
