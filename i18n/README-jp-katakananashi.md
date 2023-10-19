@@ -71,6 +71,6 @@ Usage :
 
 要件：Python, module `requests`.
 
-1. Pythonを準備する
-2. pipによる `requests` を取得する: `python -m pip install requests`
+1. Python開発環境を準備
+2. pipによる `requests` を取得: `python -m pip install requests`
 3. Scriptを実行. AMD64の場合は `python ./build-amd64.py`、ARM64の場合は`build-arm64.py`
