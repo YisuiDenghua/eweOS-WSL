@@ -4,7 +4,7 @@
 
 
 
-[日本語](i18n/README-jp.md) | [简体中文](i18n/README-zh-hans.md) | [日本语(片仮名無)](i18n/README-jp-katakananashi.md) 
+[日本語](i18n/README-jp.md) | [简体中文](i18n/README-zh-hans.md) | [日本语(片仮名無し)](i18n/README-jp-katakananashi.md) 
 
 ## 🐑About
 
