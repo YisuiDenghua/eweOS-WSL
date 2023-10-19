@@ -1,6 +1,8 @@
 # eweOS WSL
 
-![图片](https://github.com/YisuiDenghua/eweOS-WSL/assets/102890144/7eab9cb5-35b4-48b5-961d-504cb798a946)
+![图片](https://github.com/YisuiDenghua/eweOS-WSL/assets/102890144/885505ca-6eaf-47f1-98e7-e4ff9adeae8c)
+
+
 
 [日本語](i18n/README-jp.md) | [简体中文](i18n/README-zh-hans.md)
 
