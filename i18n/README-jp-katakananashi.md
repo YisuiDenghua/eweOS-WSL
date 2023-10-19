@@ -1,3 +1,6 @@
+> note: これは実験的な文書です。構文錯誤がある可能性があります
+
+
 ## 🐑eweOS WSLについて
 
 [eweOS](https://os.ewe.moe/)に基づくWSL分布(Windows 10 FCU以降対応/[wsldl](https://github.com/yuk7/wsldl)ベース)
